@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css learning</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://heroicons.dev/?query=external">
+</head>
+
+<body>
+    <nav class="bg-green-100 p-2 flex justify-between items-center shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl font-bold ">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="size-5 w-5 h-5 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+
+
+        <ul class="flex p-2 gap-2 hidden md:flex">
+            <li><a class="hover:underline" href="index.html">Home</a></li>
+            <li><a class="hover:underline " href="product.html">Product</a></li>
+            <li><a class="hover:underline " href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- header section -->
+    <section class="bg-green-100 p-4 flex justify-center md:p-10">
+        <div>
+            <p class="mt-5">We offer you a wide range of Artificial and Natural plants</p>
+            <h2 class="font-bold text-3xl my-8 md:text-5xl">Plants for your interiors</h2>
+            <div class="mb-5">
+                <a href="#" class="bg-black  text-white rounded p-2">Shop Now</a>
+                <a href="#" class="border border-black p-2 rounded">Watch Video</a>
+            </div>
+            <p class="mt-8">160+ Plant Species | 100+ Clients</p>
+        </div>
+        <div class="hidden md:flex p-5 ">
+            <img src="./images/plant.jpg" class="w-60  " alt="header image">
+        </div>
+    </section>
+    <!-- header section end-->
+
+    <!-- about section -->
+    <section class="text-center m-5">
+        <h1 class="font-bold text-2xl mt-5 ">About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur. Eaque repellendus nisi possimus quis ratione laborum?</p>
+        <div class=" md:flex ">
+            <div class="border border-black p-3  m-5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="size-5 w-5 h-5 inline">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+                <h1 class="font-medium text-xl ">Heading head</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum nisi voluptatibus suscipit iure
+                    deserunt accusantium officia molestias error nihil voluptatum obcaecati, ut tenetur temporibus ullam
+                    ipsam quos corrupti nostrum!</p>
+            </div>
+
+            <div class="border border-black p-3  m-5">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="size-5 w-5 h-5 inline ">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+                <h1 class="font-medium text-xl ">Heading head</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum nisi voluptatibus suscipit iure
+                    deserunt accusantium officia molestias error nihil voluptatum obcaecati, ut tenetur temporibus ullam
+                    ipsam quos corrupti nostrum!</p>
+            </div>
+            <div class="border border-black p-3 m-5  ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                class="size-5 w-5 h-5 inline">
+                <path fill-rule="evenodd"
+                    d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                    clip-rule="evenodd" />
+            </svg>
+
+                <h1 class="font-medium text-xl ">Heading head</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum nisi voluptatibus suscipit iure
+                    deserunt accusantium officia molestias error nihil voluptatum obcaecati, ut tenetur temporibus ullam
+                    ipsam quos corrupti nostrum!</p>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- about section end-->
+
+    <!-- Best Seller section start -->
+    <section class="text-center m-5">
+        <h1 class="font-bold text-3xl">Best Seller</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 p-5">
+            <div>
+                <img src="./images/bestseller-1.png" alt="plant"
+                    class=" inline hover:p-1 hover:shadow-2xl border-2 hover:border-indigo-200 transform hover:-translate-y-2  ">
+                <h2 class="text-black">Rose plant</h2>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-2.png" alt="plant"
+                    class="inline hover:p-1 hover:shadow-2xl border-2 hover:border-indigo-200 transform hover:-translate-y-2 ">
+                <h2 class="text-black">Rose plant</h2>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-3.png" alt="plant"
+                    class="inline hover:p-1 hover:shadow-2xl border-2 hover:border-indigo-200 transform hover:-translate-y-2 ">
+                <h2 class="text-black">Rose plant</h2>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller-4.png" alt="plant"
+                    class="inline hover:p-1 hover:shadow-2xl border-2 hover:border-indigo-200 transform hover:-translate-y-2 ">
+                <h2 class="text-black">Rose plant</h2>
+                <p>$20</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Best Seller section end -->
+
+    <!-- customer review section start -->
+    <section class="m-5">
+        <h1 class="font-bold text-3xl text-center p-4">Customer Review</h1>
+        <div class="m-5">
+            <div class="bg-green-700 container p-4 m-5">
+                <p class=" text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa quasi libero
+                    molestiae, asperiores laudantium voluptates tempore aut ad eos laborum dolores neque non dolorum
+                    soluta! Voluptatem eveniet natus quas autem adipisci voluptatibus vitae ratione accusantium dolorem
+                    obcaecati deleniti eaque odio fugiat dolore nemo, perspiciatis reprehenderit harum soluta omnis.
+                    Officia?
+                <p class="font-bold text-yellow-500 pt-2">Genny Louis</p>
+                </p>
+            </div>
+            <div class="bg-green-700 container p-4 m-5">
+                <p class=" text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa quasi libero
+                    molestiae, asperiores laudantium voluptates tempore aut ad eos laborum dolores neque non dolorum
+                    soluta! Voluptatem eveniet natus quas autem adipisci voluptatibus vitae ratione accusantium dolorem
+                    obcaecati deleniti eaque odio fugiat dolore nemo, perspiciatis reprehenderit harum soluta omnis.
+                    Officia?
+                <p class="font-bold text-yellow-500 pt-2">Genny Louis</p>
+                </p>
+            </div>
+            <div class="bg-green-700 container p-4 m-5">
+                <p class=" text-white  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa quasi libero
+                    molestiae, asperiores laudantium voluptates tempore aut ad eos laborum dolores neque non dolorum
+                    soluta! Voluptatem eveniet natus quas autem adipisci voluptatibus vitae ratione accusantium dolorem
+                    obcaecati deleniti eaque odio fugiat dolore nemo, perspiciatis reprehenderit harum soluta omnis.
+                    Officia?
+                <p class="font-bold text-yellow-500 pt-2">Genny Louis</p>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- customer review section end -->
+
+    <!-- News Letter section start -->
+    <section class="text-center">
+        <h1 class="font-bold text-3xl p-3">Join Our News Letter</h1>
+        <p>Subscribe for our email news letter</p>
+        <input type="text" class="border border-black m-2 p-2" style="width: 80%;"> <br>
+        <button class="bg-black text-white p-2 m-2 rounded border-2 border-black underline">Subscribe</button>
+    </section>
+    <!-- News Letter section End -->
+
+    <!-- Footer -->
+    <section class="bg-green-100 p-5">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, fugit reprehenderit! Porro
+            molestiae exercitationem eveniet praesentium sit tempore quis consequuntur?</p>
+        <p class="mt-5">@ 2024 greenday.com</p>
+    </section>
+    <!-- footer end -->
+</body>
+
+</html>
